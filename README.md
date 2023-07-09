@@ -3,6 +3,8 @@
   A guide on how to utilize TypeScript inlay hints in VS Code / Neovim with the TypeScript Language Server
 </p>
 
+[![IT Man - Tip #39 - Level Up Your TypeScript: Inlay Hints [Vietnamese]](https://i.ytimg.com/vi/0Y0HrvFQ600/hqdefault.jpg)](https://www.youtube.com/watch?v=0Y0HrvFQ600)
+
 ## What is TypeScript inlay hints?
 
 TypeScript inlay hints are inline annotations that appear in your source code while you are coding. They provide additional contextual information about variables, parameters, or function return values. This feature enhances the readability and understanding of your code by providing live insights about your types directly in the code.
@@ -45,7 +47,7 @@ The instructions to set this up are detailed in the following VS Code and Neovim
 
 In Visual Studio Code, to enable TypeScript inlay hints, follow these steps:
 
-1. Open settings (File -> Preferences -> Settings or `Ctrl + ,`).
+1. Open settings (File -> Preferences -> Settings or `CMD/Ctrl + ,`).
 2. Search for "inlay hints" in the search bar.
 3. Look for the "Typescript > Inlay Hints" section. There are several options that can be configured here. You can enable or disable each type of hint individually. 
 4. Reload the VS Code for changes to take effect.
