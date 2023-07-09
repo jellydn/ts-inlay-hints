@@ -273,6 +273,27 @@ dim.lua is a Neovim plugin that dims unused variables and functions using LSP an
 }
 ```
 
+## Tips
+
+### [Bob](https://github.com/MordechaiHadad/bob) - A Guide for Easy Switching Between Neovim Versions
+
+**Bob** is a versatile, cross-platform Neovim version manager that simplifies the process of switching between different versions of Neovim. It supports a range of commands for version management and comes with several features that offer added convenience.
+
+Here's how you can use it:
+
+- **Selecting a Version**: Use the `bob use` command followed by either a specific version number (in either `vx.x.x` or `x.x.x` format), `nightly`, `stable`, `latest`, or a specific commit hash. For instance, `bob use 0.9.1` or `bob use v0.9.1` will switch to version 0.9.1. The `--no-install` flag can be added to prevent automatic installation of the specified version if it's not already installed.
+
+- **Installing a Version**: The `bob install` command lets you install a specific version of Neovim, including `nightly`, `stable`, `latest`, or a specific version number or commit hash. This command can also be used to update an out-of-date `nightly` version.
+
+- **Uninstalling a Version**: To uninstall a specific version of Neovim, use the `bob uninstall` command followed by the version identifier (`nightly`, `stable`, `latest`, version number, or commit hash).
+
+- **Erasing Changes**: Use the `bob erase` command to undo all changes made by Bob, including Neovim installations, version downloads, and registry modifications.
+
+- **Listing Versions**: To see all installed and currently used versions, use the `bob list` command.
+
+- **Updating Versions**: Use the `bob update` command followed by a version identifier (`nightly`, `stable`, specific version number) or `--all` to update existing versions.
+
+
 ## Author
 
 👤 **Huynh Duc Dung**
