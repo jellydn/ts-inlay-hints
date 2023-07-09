@@ -177,6 +177,40 @@ return {
 }
 ```
 
+### My preferred Neovim LSP settings
+
+This is my preferred Neovim configuration for JavaScript, TypeScript and Deno development. You can copy and paste these settings into your Neovim config.
+```lua
+settings = {
+  typescript = {
+    inlayHints = {
+      -- You can set this to 'all' or 'literals' to enable more hints
+      includeInlayParameterNameHints = "none", -- 'none' | 'literals' | 'all'
+      includeInlayParameterNameHintsWhenArgumentMatchesName = false,
+      includeInlayFunctionParameterTypeHints = false,
+      includeInlayVariableTypeHints = false,
+      includeInlayVariableTypeHintsWhenTypeMatchesName = false,
+      includeInlayPropertyDeclarationTypeHints = false,
+      includeInlayFunctionLikeReturnTypeHints = true,
+      includeInlayEnumMemberValueHints = true,
+    },
+  },
+  javascript = {
+    inlayHints = {
+      -- You can set this to 'all' or 'literals' to enable more hints
+      includeInlayParameterNameHints = "none", -- 'none' | 'literals' | 'all'
+      includeInlayParameterNameHintsWhenArgumentMatchesName = false,
+      includeInlayVariableTypeHints = false,
+      includeInlayFunctionParameterTypeHints = false,
+      includeInlayVariableTypeHintsWhenTypeMatchesName = false,
+      includeInlayPropertyDeclarationTypeHints = false,
+      includeInlayFunctionLikeReturnTypeHints = true,
+      includeInlayEnumMemberValueHints = true,
+    },
+  },
+},
+```
+
 ## Resources
 
 Here are some additional resources that you may find helpful when working with TypeScript inlay hints:
