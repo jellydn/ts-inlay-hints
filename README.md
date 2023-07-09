@@ -11,23 +11,25 @@ TypeScript inlay hints are inline annotations that appear in your source code wh
 
 Below is a comparison to illustrate how your code looks without and with TypeScript inlay hints:
 
-| Without Inlay Hints | With Inlay Hints |
-|---------------------|------------------|
+| Without Inlay Hints                                                              | With Inlay Hints                                                              |
+| -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
 | ![Without Inlay Hints](https://i.gyazo.com/281caeeadcfd81c9f64e56465b9d186f.png) | ![With Inlay Hints](https://i.gyazo.com/e87bd8c0ddffcc027acab50b4b0fde8c.png) |
 
 Here's the same example, represented as code:
 
 **Without Inlay Hints:**
+
 ```ts
 function greet(name: string) {
   return `Hello, ${name}!`;
 }
 
-let user = 'World';
+let user = "World";
 greet(user);
 ```
 
 **With Inlay Hints:**
+
 ```ts
 function greet(name: string): string {
   return `Hello, ${name}!`;
@@ -60,7 +62,7 @@ Below is a recommended configuration for VS Code when using `inlay-hints`. These
 
 ```json
 {
- "editor.inlayHints.fontFamily": "JetBrainsMono NF",
+  "editor.inlayHints.fontFamily": "JetBrainsMono NF",
   "editor.inlayHints.fontSize": 1,
   "editor.inlayHints.padding": true,
   "javascript.inlayHints.enumMemberValues.enabled": true,
@@ -75,6 +77,13 @@ Below is a recommended configuration for VS Code when using `inlay-hints`. These
   "typescript.inlayHints.parameterNames.enabled": "literals"
 }
 ```
+
+| Setting                                                      | Description                                                                                                                                                                         | Image                                                                                                                               |
+| ------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| `enumMemberValues`             | If set to true, this setting enables Inlay Hints for enum member values.                                                                                                 | [![Image from Gyazo](https://i.gyazo.com/02e301ce25394d6a5a6e70f619174e3e.png)](https://gyazo.com/02e301ce25394d6a5a6e70f619174e3e) |
+| `functionLikeReturnTypes`      | If set to true, this setting enables Inlay Hints for function and method return types.                                                                                   | [![Image from Gyazo](https://i.gyazo.com/511215a1522c21ceac87822e89df1b83.png)](https://gyazo.com/511215a1522c21ceac87822e89df1b83) |
+| `variableLikeDeclarationTypes` | If set to 'all' or 'literals', this setting provides Inlay Hints for variable declarations, default values and destructuring assignments. The default setting is 'none'. | [![Image from Gyazo](https://i.gyazo.com/635558a6ced872c2efc22c43126b439c.png)](https://gyazo.com/635558a6ced872c2efc22c43126b439c) |
+
 
 [![VSCode preferred inlayHints](https://i.gyazo.com/ecec0eb8d42a2214e1540e098a65b371.png)](https://gyazo.com/ecec0eb8d42a2214e1540e098a65b371)
 
@@ -184,6 +193,7 @@ return {
 ### My preferred Neovim LSP settings
 
 This is my preferred Neovim configuration for JavaScript, TypeScript and Deno development. You can copy and paste these settings into your Neovim config.
+
 ```lua
 settings = {
   typescript = {
@@ -295,22 +305,24 @@ Here's how you can use it:
 
 ### [getNF](https://github.com/ronniedroid/getnf) - The Convenient Way to Install NerdFonts
 
-**getNF** is an efficient and intuitive way to install [NerdFonts](https://www.nerdfonts.com/). NerdFonts are developer-targeted fonts that come packed with a plethora of glyphs (icons) from popular 'iconic fonts' such as Font Awesome, Devicons, Octicons, and others. 
+**getNF** is an efficient and intuitive way to install [NerdFonts](https://www.nerdfonts.com/). NerdFonts are developer-targeted fonts that come packed with a plethora of glyphs (icons) from popular 'iconic fonts' such as Font Awesome, Devicons, Octicons, and others.
 
 #### Installation
+
 To install getNF, follow these steps:
+
 1. Clone the getNF repository from GitHub:
-    ```
-    git clone https://github.com/ronniedroid/getnf.git
-    ```
+   ```
+   git clone https://github.com/ronniedroid/getnf.git
+   ```
 2. Move into the `getnf` directory:
-    ```
-    cd getnf
-    ```
+   ```
+   cd getnf
+   ```
 3. Run the `install.sh` script:
-    ```
-    ./install.sh
-    ```
+   ```
+   ./install.sh
+   ```
 
 Now, you're all set to enrich your coding experience with an array of Nerd Fonts. Enjoy!
 
@@ -318,9 +330,9 @@ Now, you're all set to enrich your coding experience with an array of Nerd Fonts
 
 👤 **Huynh Duc Dung**
 
--   Website: https://productsway.com/
--   Twitter: [@jellydn](https://twitter.com/jellydn)
--   Github: [@jellydn](https://github.com/jellydn)
+- Website: https://productsway.com/
+- Twitter: [@jellydn](https://twitter.com/jellydn)
+- Github: [@jellydn](https://github.com/jellydn)
 
 ## Show your support
 
