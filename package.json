@@ -3,7 +3,8 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "dev": "npx tsx app.ts"
+    "start": "npx tsx app.ts",
+    "dev": "npx tsx watch app.ts"
   },
   "devDependencies": {
     "bun-types": "latest"
@@ -12,6 +13,8 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "@fastify/swagger": "^8.8.0",
+    "@fastify/swagger-ui": "^1.9.2",
     "fastify": "^4.19.2",
     "fluent-json-schema": "^4.1.0"
   }
