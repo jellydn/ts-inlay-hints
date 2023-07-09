@@ -49,7 +49,7 @@ In Visual Studio Code, to enable TypeScript inlay hints, follow these steps:
 
 1. Open settings (File -> Preferences -> Settings or `CMD/Ctrl + ,`).
 2. Search for "inlay hints" in the search bar.
-3. Look for the "Typescript > Inlay Hints" section. There are several options that can be configured here. You can enable or disable each type of hint individually. 
+3. Look for the "Typescript > Inlay Hints" section. There are several options that can be configured here. You can enable or disable each type of hint individually.
 4. Reload the VS Code for changes to take effect.
 
 [![VSCode inlayHints](https://i.gyazo.com/eea68c7a1d71827af0b3c659c320ca52.png)](https://gyazo.com/eea68c7a1d71827af0b3c659c320ca52)
@@ -60,15 +60,19 @@ Below is a recommended configuration for VS Code when using `inlay-hints`. These
 
 ```json
 {
-  "editor.inlayHints.fontFamily": "JetBrainsMono NF",
+ "editor.inlayHints.fontFamily": "JetBrainsMono NF",
+  "editor.inlayHints.fontSize": 1,
   "editor.inlayHints.padding": true,
   "javascript.inlayHints.enumMemberValues.enabled": true,
   "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
-  "typescript.inlayHints.enumMemberValues.enabled": true,
+  // You can set this to 'all' or 'literals' to enable more hints, default is none
+  "javascript.inlayHints.parameterNames.enabled": "literals",
   "deno.inlayHints.enumMemberValues.enabled": true,
   "deno.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
-  "editor.inlayHints.fontSize": 1
+  // You can set this to 'all' or 'literals' to enable more hints, default is none
+  "typescript.inlayHints.parameterNames.enabled": "literals"
 }
 ```
 
