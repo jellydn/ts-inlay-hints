@@ -5,10 +5,17 @@
 
 ## What is TypeScript inlay hints?
 
-TypeScript inlay hints are inline annotations that appear in your source code while you are coding. They provide additional contextual information about variables, parameters, or function return values. This feature enhances the readability and understanding of your code by providing live insights about your types directly in the code, as shown in the example below.
+TypeScript inlay hints are inline annotations that appear in your source code while you are coding. They provide additional contextual information about variables, parameters, or function return values. This feature enhances the readability and understanding of your code by providing live insights about your types directly in the code.
 
-Here's how TypeScript without inlay hints look in the code:
+Below is a comparison to illustrate how your code looks without and with TypeScript inlay hints:
 
+| Without Inlay Hints | With Inlay Hints |
+|---------------------|------------------|
+| ![Without Inlay Hints](https://i.gyazo.com/281caeeadcfd81c9f64e56465b9d186f.png) | ![With Inlay Hints](https://i.gyazo.com/e87bd8c0ddffcc027acab50b4b0fde8c.png) |
+
+Here's the same example, represented as code:
+
+**Without Inlay Hints:**
 ```ts
 function greet(name: string) {
   return `Hello, ${name}!`;
@@ -18,8 +25,7 @@ let user = 'World';
 greet(user);
 ```
 
-With TypeScript inlay hints enabled, it will look something like this:
-
+**With Inlay Hints:**
 ```ts
 function greet(name: string): string {
   return `Hello, ${name}!`;
@@ -29,7 +35,7 @@ let user: string = 'World';
 greet(user: string): string;
 ```
 
-As you can see, the inlay hints provide extra information about the types of the variables and function return values directly in the code.
+As you can see, the inlay hints provide extra information about the types of the variables and function return values directly in the code, significantly improving readability and understanding.
 
 ## How to use
 
