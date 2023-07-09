@@ -293,6 +293,26 @@ Here's how you can use it:
 
 - **Updating Versions**: Use the `bob update` command followed by a version identifier (`nightly`, `stable`, specific version number) or `--all` to update existing versions.
 
+### [getNF](https://github.com/ronniedroid/getnf) - The Convenient Way to Install NerdFonts
+
+**getNF** is an efficient and intuitive way to install [NerdFonts](https://www.nerdfonts.com/). NerdFonts are developer-targeted fonts that come packed with a plethora of glyphs (icons) from popular 'iconic fonts' such as Font Awesome, Devicons, Octicons, and others. 
+
+#### Installation
+To install getNF, follow these steps:
+1. Clone the getNF repository from GitHub:
+    ```
+    git clone https://github.com/ronniedroid/getnf.git
+    ```
+2. Move into the `getnf` directory:
+    ```
+    cd getnf
+    ```
+3. Run the `install.sh` script:
+    ```
+    ./install.sh
+    ```
+
+Now, you're all set to enrich your coding experience with an array of Nerd Fonts. Enjoy!
 
 ## Author
 
