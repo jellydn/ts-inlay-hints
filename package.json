@@ -16,6 +16,6 @@
     "@fastify/swagger": "8.10.0",
     "@fastify/swagger-ui": "1.9.3",
     "fastify": "4.22.2",
-    "fluent-json-schema": "4.1.1"
+    "fluent-json-schema": "4.1.2"
   }
 }
