@@ -120,7 +120,7 @@ return {
             inlayHints = {
               includeInlayParameterNameHints = "all", -- 'none' | 'literals' | 'all'
               includeInlayParameterNameHintsWhenArgumentMatchesName = true,
-              includeInlayVariableTypeHints = true
+              includeInlayVariableTypeHints = true,
 
               includeInlayFunctionParameterTypeHints = true,
               includeInlayVariableTypeHintsWhenTypeMatchesName = true,
