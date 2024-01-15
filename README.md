@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to ts-inlay-hints 👋</h1>
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p>
   A guide on how to utilize TypeScript inlay hints in VS Code / Neovim with the TypeScript Language Server
@@ -476,6 +476,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/sp3ctum"><img src="https://avatars.githubusercontent.com/u/300791?v=4?s=100" width="100px;" alt="Mika Vilpas"/><br /><sub><b>Mika Vilpas</b></sub></a><br /><a href="https://github.com/jellydn/ts-inlay-hints/commits?author=sp3ctum" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://productsway.com/"><img src="https://avatars.githubusercontent.com/u/870029?v=4?s=100" width="100px;" alt="Dung Duc Huynh (Kaka)"/><br /><sub><b>Dung Duc Huynh (Kaka)</b></sub></a><br /><a href="https://github.com/jellydn/ts-inlay-hints/commits?author=jellydn" title="Code">💻</a> <a href="https://github.com/jellydn/ts-inlay-hints/commits?author=jellydn" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
