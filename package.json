@@ -13,7 +13,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@fastify/swagger": "8.14.0",
+    "@fastify/swagger": "8.15.0",
     "@fastify/swagger-ui": "4.0.1",
     "fastify": "4.28.1",
     "fluent-json-schema": "4.2.1"
