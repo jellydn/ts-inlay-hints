@@ -1,10 +1,12 @@
 <h1 align="center">Welcome to ts-inlay-hints 👋</h1>
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
 <p>
   A guide on how to utilize TypeScript inlay hints in VS Code / Neovim with the TypeScript Language Server
 </p>
+
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![IT Man - Tip #39 - Level Up Your TypeScript: Inlay Hints [Vietnamese]](https://i.ytimg.com/vi/0Y0HrvFQ600/hqdefault.jpg)](https://www.youtube.com/watch?v=0Y0HrvFQ600)
 
