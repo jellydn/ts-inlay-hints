@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@fastify/swagger": "9.6.1",
-    "@fastify/swagger-ui": "5.2.4",
+    "@fastify/swagger-ui": "5.2.5",
     "fastify": "5.7.2",
     "fluent-json-schema": "6.0.0"
   }
