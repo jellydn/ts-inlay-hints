@@ -10,7 +10,7 @@
     "bun-types": "latest"
   },
   "peerDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0 || ^6.0.0"
   },
   "dependencies": {
     "@fastify/swagger": "9.7.0",
